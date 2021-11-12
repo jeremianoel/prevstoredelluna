@@ -1,0 +1,405 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo img
+{
+    width: 200px;
+    height: 175px;
+}
+
+.picture-components img
+{
+    width: 75px;
+    height: 75px;
+}
+
+.artist-picture img
+{
+    width: 350px;
+    height: 300px;
+}
+
+.facebook img
+{
+    width: 80px;
+    height: 80px;
+}
+
+.instagram img
+{
+    width: 80px;
+    height: 80px;
+}
+
+.artist-album img
+{
+    width: 400px;
+    height: 350px;
+}
+
+.testimony-content img
+{
+    width: 450px;
+    height: 600px;
+}
+
+body
+{
+   margin: 0;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.header
+{
+    background-color: rgb(255, 124, 174);
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+}
+
+.header-content
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-text
+{
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins';
+    padding-top: 1%;
+    padding-left: 0.8%;
+    padding-bottom: 1%;
+}
+
+.header-text a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.upper-content
+{
+    text-align: center;
+    padding-top: 2%;
+}
+
+.about-us
+{
+    color: rgb(255, 124, 174);
+    font-size: 30px;
+    font-family: 'Poppins';
+    padding-bottom: 1%;
+}
+
+.desc
+{
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins';
+    padding-bottom: 1%;
+}
+
+.best-seller
+{
+    color: rgb(255, 124, 174);
+    font-size: 30px;
+    font-family: 'Poppins';
+    padding-top: 1%;
+    text-align: center;
+}
+
+.pictures
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.artist-name
+{
+    color: rgb(255, 124, 174);
+    font-size: 30px;
+    font-family: 'Poppins';
+    text-align: center;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.footer
+{
+    background-color: rgb(255, 124, 174);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 3%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    width: 15%;
+}
+
+.footer-left
+{
+    color: white;
+    font-size: 25px;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 3%;
+}
+
+.testimony
+{
+    color: rgb(255, 124, 174);
+    font-size: 30px;
+    font-family: 'Poppins';
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.testimony-content
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 8%;
+}
+
+.artist
+{
+    color: rgb(255, 124, 174);
+    font-size: 30px;
+    font-family: 'Poppins';
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.artist-component
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+
+.artist-desc
+{
+    color: rgb(255, 124, 174);
+    font-size: 30px;
+    font-family: 'Poppins';
+    text-align: center;
+    padding-bottom: 20%;
+    padding-top: 10%;
+}
+
+.albumfee
+{
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins';
+    padding-top: 1%;
+    text-align: center;
+    padding-left: 0.8%;
+    padding-bottom: 3%;
+}
+
+.buy
+{
+    color: grey;
+    font-size: 20px;
+    font-family: 'Poppins';
+    padding-top: 1%;
+    text-align: center;
+    padding-left: 1%;
+    padding-bottom: 20%;
+}
+
+.albumname
+{
+    color: rgb(255, 124, 174);
+    font-size: 30px;
+    font-family: 'Poppins';
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-right: 2%;
+    font-size: 20px;
+}
+
+.register
+{
+    text-align: center;
+    color: rgb(255, 124, 174);
+    font-size: 30px;
+    font-family: 'Poppins';
+    padding-top: 2%;
+}
+
+.createacc
+{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: 'Poppins';
+    padding-top: 2%;
+}
+
+.username
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;
+    width: 110%;
+}
+
+.password
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;
+    width: 110%;
+}
+
+.confirmpassword
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;
+    width: 110%;
+}
+
+.fullname
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;
+    width: 110%;
+}
+
+.email
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;
+    width: 110%;
+}
+
+.gender
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;
+    width: 110%;
+}
+
+.age
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;
+    width: 110%;
+}
+
+.gendertypes
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+
+.emailinput
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+
+.usernameinput
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+
+.passwordinput
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+
+.confirmpasswordinput
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+
+.fullnameinput
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+
+.ageinput
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+
+.button
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.terms
+{
+    padding-left: 5%;
+    width: 120%;
+}
